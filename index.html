@@ -3,7 +3,7 @@
 
     <head>
 
-        <meta name="description" content="date practice">
+        <meta name="description" content="Countdown timer that displays number of days until 2020 presidental election">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
 
@@ -17,13 +17,28 @@
 
         <div id="container">
 
-            <h2>Days to Election</h2>
+            <section>
 
-            <p>There are <span id="days-to-voting"></span> days to the 2020 Presidental Election.</p>
+                <h2>Days to Election</h2>
 
-            <script type="text/javascript" src="site.js"></script>
+                <p>There are <span id="days-to-voting"></span> days to the 2020 Presidental Election.</p>
+
+                <figure id="shade1"><figcaption>2016</figcaption></figure>
+                <figure id="shade2"></figure>
+                <figure id="shade3"></figure>
+                <figure id="shade4"></figure>
+                <figure id="shade5"><figcaption>2020</figcaption></figure>
+
+                <div id="needle"></div>
+
+                <!--Simple clearfix-->
+                <div class="clear"><br /></div>
+
+            </section>
 
         </div> <!--close container-->
+
+        <script type="text/javascript" src="site.js"></script>
 
     </body>
 
