@@ -1,14 +1,75 @@
 #container {
-    width: 90%;
-    max-width:  600px;
-    margin:  0 auto;
-    padding: 1em 5%;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    background: #D8E0F2;
+}
+
+section {
+    width: 80%;
+    margin: 0;
+    padding: 0.6em 10%;
+    position: relative;
+}
+
+figure {
+    width: 20%;
+    height: 1.6em;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#shade1 {
+    background: #5fabbb;
+}
+
+#shade2 {
+    background: #FFF;
+    float: left;
+}
+
+#shade3 {
+    background: #2869c2;
+}
+
+#shade4 {
+    background: #dcc34c;
+}
+
+#shade5 {
+    background: #f22424;
+}
+
+#needle {
+    width: .2em;
+    height: 1.8em;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 1.6em;
+    z-index: 1;
+    background: #555;
 }
 
 h2 {
-    font: bold 1.2em/1.5em Arial, Helvetica, sans-serif;
+    font: bold 1.6em/1.5em Arial, Helvetica, sans-serif;
+    color: #555;
 }
 
 p {
-    font: normal 0.875em/1.5em Arial, Helvetica, sans-serif;
+    font: normal 1em/1.5em Arial, Helvetica, sans-serif;
+    color: #555;
+}
+
+figcaption {
+    font: normal 0.625em/2.56em Arial, Helvetica, sans-serif;
+    color: #FFF;
+    text-align: center;
+}
+
+/*Simple clearfix*/
+.clear {
+    clear:  both;
 }
