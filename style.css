@@ -78,8 +78,3 @@ figcaption {
     color: #FFF;
     text-align: center;
 }
-
-/*Simple clearfix*/
-.clear {
-    clear:  both;
-}
