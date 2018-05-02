@@ -9,8 +9,15 @@
 section {
     width: 80%;
     margin: 0;
-    padding: 0.6em 10%;
+    padding: 1.6em 10%;
     position: relative;
+}
+
+/*Clearfix for section (accomplished with pseudo-element technique)*/
+section::after {
+    clear: both;
+    content: "";
+    display: table;
 }
 
 figure {
@@ -42,13 +49,14 @@ figure {
     background: #f22424;
 }
 
+/*The needle is slightly taller than the figures and positioned to slightly overhang and underhang them*/
 #needle {
     width: .2em;
     height: 1.8em;
     margin: 0;
     padding: 0;
     position: absolute;
-    bottom: 1.6em;
+    bottom: 1.5em;
     z-index: 1;
     background: #555;
 }
@@ -56,6 +64,8 @@ figure {
 h2 {
     font: bold 1.6em/1.5em Arial, Helvetica, sans-serif;
     color: #555;
+    margin: 0; /*to avoid extra space at top of section*/
+    padding: 0; /*to avoid extra space at top of section*/
 }
 
 p {
