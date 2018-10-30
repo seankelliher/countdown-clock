@@ -3,7 +3,7 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 0;
-    background: #D8E0F2;
+    background: #e3f2fd;
 }
 
 section {
@@ -29,24 +29,23 @@ figure {
 }
 
 #shade1 {
-    background: #5fabbb;
+    background: #00838f;
 }
 
 #shade2 {
     background: #FFF;
-    float: left;
 }
 
 #shade3 {
-    background: #2869c2;
+    background: #1565c0;
 }
 
 #shade4 {
-    background: #dcc34c;
+    background: #fdd835;
 }
 
 #shade5 {
-    background: #f22424;
+    background: #e53935;
 }
 
 /*The needle is slightly taller than the figures and positioned to slightly overhang and underhang them*/
@@ -58,23 +57,23 @@ figure {
     position: absolute;
     bottom: 1.5em;
     z-index: 1;
-    background: #555;
+    background: #000;
 }
 
 h2 {
     font: bold 1.6em/1.5 Arial, Helvetica, sans-serif;
-    color: #555;
+    color: #000;
     margin: 0; /*to avoid extra space at top of section*/
     padding: 0; /*to avoid extra space at top of section*/
 }
 
 p {
     font: normal 1em/1.5 Arial, Helvetica, sans-serif;
-    color: #555;
+    color: #000;
 }
 
 figcaption {
     font: normal 0.625em/2.56 Arial, Helvetica, sans-serif;
-    color: #FFF;
+    color: #fff;
     text-align: center;
 }
