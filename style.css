@@ -3,13 +3,21 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 0;
+    background: yellow;
+}
+
+header {
+    width: 80%;
+    margin: 0;
+    padding: .5em 10%;
 }
 
 section {
     width: 80%;
     margin: 0;
-    padding: 1.6em 10%;
+    padding: .5em 10%;
     position: relative;
+    background: pink;
 }
 
 /*Clearfix for section (accomplished with pseudo-element technique)*/
@@ -54,7 +62,7 @@ figure {
     margin: 0;
     padding: 0;
     position: absolute;
-    bottom: 1.5em;
+    bottom: .4em;
     z-index: 1;
     background: #000;
 }
