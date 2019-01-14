@@ -62,18 +62,15 @@ figure {
 
 h1 {
     font: 600 1.6em/1.5 font-family: 'Francois One', sans-serif;
-    color: #000;
     margin: 0; /*to avoid extra space at top of section*/
     padding: 0; /*to avoid extra space at top of section*/
 }
 
 p {
     font: 400 1em/1.5 'Merriweather', serif;
-    color: #000;
 }
 
 figcaption {
     font: 400 0.625em/2.56 'Merriweather', serif;
-    color: #fff;
     text-align: center;
 }
