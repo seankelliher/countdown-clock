@@ -49,18 +49,12 @@ days = {
         //Math.floor rounds result down
         const totalDaysMf = Math.floor(totalDays);
 
-        //Change integer to string
-        const totalDaysMfSt = totalDaysMf.toString();
-
-        //Check length of string
-        const totalDaysMfStLength = totalDaysMfSt.length;
+        //Change integer to "local" string
+        const totalDaysMfSt = totalDaysMf.toLocaleString();
 
         //Get element, create text node for it, append.
-        //Some substra work to add comma if number is over three digits.
         const daysToVoting = document.getElementById("days-to-voting");
-        const daysToVotingText = ((totalDaysMfStLength <= 3)
-            ? document.createTextNode(totalDaysMfSt)
-            : document.createTextNode(totalDaysMfSt.substr(0, 1) + "," + totalDaysMfSt.substr(1, 4)));
+        const daysToVotingText = document.createTextNode(totalDaysMfSt);
         daysToVoting.appendChild(daysToVotingText);
 
         //Position the needle on the gauge
