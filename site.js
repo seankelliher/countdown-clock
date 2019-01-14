@@ -35,12 +35,12 @@ days = {
 
         //Ternary statements - careful here, remember the note above about
         //Time zone difference and negative/positive numbers.
-        const electionLocal = (electionOffsetMs > 0)
+        const electionLocal = ((electionOffsetMs > 0)
             ? electionMs - electionOffsetMs
-            : electionMs + electionOffsetMs;
-        const todayLocal = (electionOffsetMs > 0)
+            : electionMs + electionOffsetMs);
+        const todayLocal = ((electionOffsetMs > 0)
             ? todayMs - todayOffsetMs
-            : todayMs + todayOffsetMs;
+            : todayMs + todayOffsetMs);
         const daysInMs = electionLocal - todayLocal;
 
         //The number of milliseconds in a day: 86400000
@@ -58,9 +58,9 @@ days = {
         //Get element, create text node for it, append.
         //Some substra work to add comma if number is over three digits.
         const daysToVoting = document.getElementById("days-to-voting");
-        const daysToVotingText = (totalDaysMfStLength <= 3)
+        const daysToVotingText = ((totalDaysMfStLength <= 3)
             ? document.createTextNode(totalDaysMfSt)
-            : document.createTextNode(totalDaysMfSt.substr(0, 1) + "," + totalDaysMfSt.substr(1, 4));
+            : document.createTextNode(totalDaysMfSt.substr(0, 1) + "," + totalDaysMfSt.substr(1, 4)));
         daysToVoting.appendChild(daysToVotingText);
 
         //Position the needle on the gauge
