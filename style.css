@@ -60,7 +60,7 @@ figure {
     background: #000;
 }
 
-h2 {
+h1 {
     font: bold 1.6em/1.5 Arial, Helvetica, sans-serif;
     color: #000;
     margin: 0; /*to avoid extra space at top of section*/
