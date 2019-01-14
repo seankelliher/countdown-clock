@@ -69,8 +69,8 @@ figure {
 
 h1 {
     font: 600 1.6em/1.6 'Francois One', sans-serif;
-    margin: 0; /*to avoid extra space at top of section*/
-    padding: 0; /*to avoid extra space at top of section*/
+    margin: 0; /*to avoid extra space between header and section*/
+    padding: 0; /*to avoid extra space between header and section*/
 }
 
 p {
