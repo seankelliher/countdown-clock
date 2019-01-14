@@ -35,12 +35,18 @@ days = {
 
         //Ternary statements - careful here, remember the note above about
         //Time zone difference and negative/positive numbers.
-        const electionLocal = ((electionOffsetMs > 0)
-            ? electionMs - electionOffsetMs
-            : electionMs + electionOffsetMs);
-        const todayLocal = ((electionOffsetMs > 0)
-            ? todayMs - todayOffsetMs
-            : todayMs + todayOffsetMs);
+        const electionLocal = (
+            electionOffsetMs > 0
+            ? (electionMs - electionOffsetMs)
+            : (electionMs + electionOffsetMs)
+        );
+
+        const todayLocal = (
+            electionOffsetMs > 0
+            ? (todayMs - todayOffsetMs)
+            : (todayMs + todayOffsetMs)
+        );
+
         const daysInMs = electionLocal - todayLocal;
 
         //The number of milliseconds in a day: 86400000
