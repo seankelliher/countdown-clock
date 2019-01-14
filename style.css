@@ -29,23 +29,23 @@ figure {
 }
 
 #shade1 {
-    background: #00838f;
+    background: #f0f4c3;
 }
 
 #shade2 {
-    background: #FFF;
+    background: #e6ee9c;
 }
 
 #shade3 {
-    background: #1565c0;
+    background: #bbdefb;
 }
 
 #shade4 {
-    background: #fdd835;
+    background: #90caf9;
 }
 
 #shade5 {
-    background: #e53935;
+    background: #5d99c6;
 }
 
 /*The needle is slightly taller than the figures and positioned to slightly overhang and underhang them*/
