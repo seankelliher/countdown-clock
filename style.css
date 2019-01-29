@@ -17,7 +17,7 @@ section {
     margin: 0;
     padding: .5em 10% 1.5em 10%;
     position: relative;
-    background: #f5f5f5;
+    background: #e3f2fd;
 }
 
 /*Clearfix for section (accomplished with pseudo-element technique)*/
