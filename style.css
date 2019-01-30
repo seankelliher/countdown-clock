@@ -8,7 +8,7 @@
 header {
     width: 80%;
     margin: 0;
-    padding: 1em 10%;
+    padding: .5em 10%;
     background: #bbdefb;
 }
 
@@ -69,8 +69,6 @@ figure {
 
 h1 {
     font: 600 1.6em/1.6 'Francois One', sans-serif;
-    margin: 0; /*to avoid extra space between header and section*/
-    padding: 0; /*to avoid extra space between header and section*/
 }
 
 p {
