@@ -8,14 +8,14 @@
 header {
     width: 80%;
     margin: 0;
-    padding: .5em 10%;
+    padding: 1em 10%;
     background: #bbdefb;
 }
 
 section {
     width: 80%;
     margin: 0;
-    padding: .5em 10% 1.5em 10%;
+    padding: 1em 10% 2em 10%;
     position: relative;
     background: #e3f2fd;
 }
@@ -62,7 +62,7 @@ figure {
     margin: 0;
     padding: 0;
     position: absolute;
-    bottom: 1.4em;
+    bottom: 1.9em;
     z-index: 1;
     background: #000;
 }
