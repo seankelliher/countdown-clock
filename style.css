@@ -30,7 +30,7 @@ section::after {
 figure {
     width: 20%;
     height: 1.6em;
-    margin: 0;
+    margin: .5em 0;
     padding: 0;
     float: left;
 }
@@ -62,7 +62,7 @@ figure {
     margin: 0;
     padding: 0;
     position: absolute;
-    bottom: 1.9em;
+    bottom: 2.4em;
     z-index: 1;
     background: #000;
 }
