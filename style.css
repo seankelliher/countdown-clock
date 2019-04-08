@@ -70,11 +70,55 @@ figure {
 }
 
 h1 {
-    font: 600 1.6em/1.6 'Francois One', sans-serif;
+    line-height: 1.5;
+    font-family: 'Francois One', sans-serif;
+}
+
+@media all and (min-width: 300px) {
+
+    h1 {
+        font-size: 1.2em;
+    }
+}
+
+@media all and (min-width: 400px) {
+
+    h1 {
+        font-size: 1.4em;
+    }
+}
+
+@media all and (min-width: 600px) {
+
+    h1 {
+        font-size: 1.6em;
+    }
 }
 
 p {
-    font: 400 1em/1.5 'Merriweather', serif;
+    line-height: 1.8;
+    font-family: 'Merriweather', serif;
+}
+
+@media all and (min-width: 300px) {
+
+    p {
+        font-size: .825em;
+    }
+}
+
+@media all and (min-width: 400px) {
+
+    p {
+        font-size: .875em;
+    }
+}
+
+@media all and (min-width: 600px) {
+    
+    p {
+        font-size: 1em;
+    }
 }
 
 figcaption {
