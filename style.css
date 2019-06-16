@@ -9,6 +9,7 @@ header {
     width: 80%;
     margin: 0;
     padding: .5em 10%;
+    background: #fafafa;
     text-align: center;
     border-bottom: 1px solid #bdbdbd; /*grey 400*/
 }
@@ -17,6 +18,7 @@ section {
     width: 80%;
     margin: 0;
     padding: 1em 10% 2em 10%;
+    background: #fafafa;
     position: relative;
     text-align: center;
 }
