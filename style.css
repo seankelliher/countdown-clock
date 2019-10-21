@@ -21,13 +21,7 @@ section {
     background: #fafafa; /*grey 50*/
     position: relative;
     text-align: center;
-}
-
-/*Clearfix for section (accomplished with pseudo-element technique)*/
-section::after {
-    clear: both;
-    content: "";
-    display: table;
+    display: flow-root;
 }
 
 figure {
