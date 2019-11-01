@@ -1,8 +1,11 @@
 #container {
-    width: 100%;
+    width: 99.6666666666667%; /*598 pixels / 600 pixels*/
     max-width: 600px;
     margin: 0 auto;
     padding: 0;
+    background: #fafafa; /*grey 50*/
+    border: 1px solid #e0e0e0; /*grey 300*/
+    display: flow-root;
 }
 
 header {
