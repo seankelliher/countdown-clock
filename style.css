@@ -113,6 +113,9 @@ p {
 }
 
 figcaption {
-    font: 400 0.625em/2.56 'Merriweather', serif;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: .625em;
+    line-height: 2.56;
     text-align: center;
 }
