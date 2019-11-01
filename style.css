@@ -8,15 +8,6 @@
     display: flow-root;
 }
 
-header {
-    width: 80%;
-    margin: 0;
-    padding: .5em 10%;
-    background: #fafafa; /*grey 50*/
-    text-align: center;
-    border-bottom: 1px solid #bdbdbd; /*grey 400*/
-}
-
 section {
     width: 80%;
     margin: 0;
