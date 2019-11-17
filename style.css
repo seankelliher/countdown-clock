@@ -60,8 +60,9 @@ figure {
 }
 
 h1 {
-    line-height: 1;
     font-family: 'Francois One', sans-serif;
+    line-height: 1;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -87,8 +88,9 @@ h1 {
 }
 
 p {
-    line-height: 2.6;
     font-family: 'Merriweather', serif;
+    line-height: 2.6;
+    font-weight: 400;
 }
 
 @media all and (min-width: 300px) {
@@ -114,8 +116,8 @@ p {
 
 figcaption {
     font-family: 'Merriweather', serif;
-    font-weight: 400;
     font-size: .625em;
     line-height: 2.56;
+    font-weight: 400;
     text-align: center;
 }
