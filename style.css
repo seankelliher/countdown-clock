@@ -35,23 +35,25 @@ figure {
 }
 
 #shade1 {
-    background: #fff; /*grey 100 light (white)*/
+    background: #FFF; /*grey 100 light (white)*/
+    text-align: left;
 }
 
 #shade2 {
-    background: #e0e0e0; /*grey 300*/
+    background: #E0E0E0; /*grey 300*/
 }
 
 #shade3 {
-    background: #42a5f5; /*blue 400*/
+    background: #42A5F5; /*blue 400*/
 }
 
 #shade4 {
-    background: #1e88e5; /*blue 600*/
+    background: #1E88E5; /*blue 600*/
 }
 
 #shade5 {
-    background: #ef5350; /*red 400*/
+    background: #EF5350; /*red 400*/
+    text-align: right;
 }
 
 /*The needle is slightly taller than the figures.*/
