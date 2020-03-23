@@ -1,12 +1,12 @@
-//To avoid confusion, remember that Universal Coordinated Time (UCT)
-//equals Greenwich Mean Time (GMT), there is no difference.
+//Note: Universal Coordinated Time (UCT) = Greenwich Mean Time (GMT).
+
+//Global variable.
 let days;
 
-//When the DOM Content is Loaded, invoke the "get days" function.
+//When the DOM Content is loaded, invoke the "get days" function.
 document.addEventListener("DOMContentLoaded", function () {
     "use strict";
 
-    //Invoke the "get days" function.
     days.getDays();
 });
 
