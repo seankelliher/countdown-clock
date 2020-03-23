@@ -21,6 +21,10 @@ section {
     align-items: flex-start; /*cross axis*/
 }
 
+.relative {
+    position: relative;
+}
+
 figure {
     width: 20%;
     height: 1.6em;
