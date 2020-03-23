@@ -71,6 +71,12 @@ days = {
         const needle = document.getElementById("needle");
         needle.style.right = padding + scale + "%";
 
-    } //close function
+        //Now, we adjust for local time zone so days to election is accurate.
+        //Get the time zone offset.
+        const offSet = today.getTimezoneOffset();
+
+        //Invoke next function with parameters.
+        days.adjustDays(today, until2020Day, offSet);
+    },
 
 }; //close variable
