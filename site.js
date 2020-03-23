@@ -79,4 +79,17 @@ days = {
         days.adjustDays(today, until2020Day, offSet);
     },
 
+        adjustDays: function (today, until2020Day, offSet) {
+        "use strict";
+
+        //Get today's hour, minute, and second.
+        const hour = today.getUTCHours();
+        const minute = today.getUTCMinutes();
+        const second = today.getUTCSeconds();
+
+        //Create mutable variable for "adjusted" day.
+        let until2020DayAdjusted;
+
+    }
+
 }; //close variable
