@@ -311,6 +311,9 @@ days = {
             }
         }
 
+       //Place number of days to election on page.
+        const result = document.getElementById("result");
+        result.textContent = until2020DayAdjusted;
     }
 
 }; //close variable
