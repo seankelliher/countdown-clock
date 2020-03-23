@@ -30,7 +30,8 @@ figure {
     height: 1.6em;
     margin: 0;
     padding: 0;
-    float: left;
+    flex: initial; /*flex: 0 1 auto*/
+    text-align: center;
 }
 
 #shade1 {
