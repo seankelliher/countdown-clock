@@ -60,11 +60,11 @@ figure {
 /* It is positioned to slightly overhang and underhang them.*/
 #needle {
     width: .2em;
-    height: 1.8em;
+    height: 2em;
     margin: 0;
     padding: 0;
     position: absolute;
-    bottom: -.1em;
+    bottom: .8em;
     z-index: 1;
     background: #000;
 }
