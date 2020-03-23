@@ -35,6 +35,30 @@ days = {
         //Set time to midnight.
         const todayUtc = new Date(Date.UTC(year, month, day, 0, 0, 0));
 
+        //Get difference between above dates/times and Unix time.
+        //Unix time is 1/1/1970 at midnight UTC, excluding leap seconds.
+        const election2016UnixDif = election2016.getTime();
+        const election2020UnixDif = election2020.getTime();
+        const todayUtcUnixDif = todayUtc.getTime();
+
+        //Find number of days between 2020 and 2016 election days.
+        //This could be written as one calculation.
+        //But, for clarity, I wrote it step by step.
+        const betweenElectionsMis = election2020UnixDif - election2016UnixDif;
+        const betweenElectionsSec = betweenElectionsMis / 1000;
+        const betweenElectionsMin = betweenElectionsSec / 60;
+        const betweenElectionsHrs = betweenElectionsMin / 60;
+        const betweenElectionsDay = betweenElectionsHrs / 24;
+
+        //Find number of days between 2020 election day and today.
+        //This could be written as one calculation.
+        //But, for clarity, I wrote it step by step.
+        const until2020Mis = election2020UnixDif - todayUtcUnixDif;
+        const until2020Sec = until2020Mis / 1000;
+        const until2020Min = until2020Sec / 60;
+        const until2020Hrs = until2020Min / 60;
+        const until2020Day = until2020Hrs / 24;
+
     } //close function
 
 }; //close variable
