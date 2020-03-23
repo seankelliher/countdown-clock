@@ -79,7 +79,7 @@ days = {
         days.adjustDays(today, until2020Day, offSet);
     },
 
-        adjustDays: function (today, until2020Day, offSet) {
+    adjustDays: function (today, until2020Day, offSet) {
         "use strict";
 
         //Get today's hour, minute, and second.
@@ -311,7 +311,7 @@ days = {
             }
         }
 
-       //Place number of days to election on page.
+        //Place number of days to election on page.
         const result = document.getElementById("result");
         result.textContent = until2020DayAdjusted;
     }
