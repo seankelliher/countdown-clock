@@ -76,65 +76,34 @@ footer {
     flex: initial; /*flex: 0 1 auto*/
 }
 
+p, figcaption {
+    font-family: 'Roboto', serif;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
 h1 {
-    font-family: 'Francois One', sans-serif;
-    line-height: 1;
-    font-weight: 400;
-    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
 }
 
 @media all and (min-width: 300px) {
-
-    h1 {
-        font-size: 1.2em;
+    p, figcaption {
+        font-size: .9375em; /*15 pixels*/
     }
-}
-
-@media all and (min-width: 400px) {
 
     h1 {
-        font-size: 1.4em;
+        font-size: 1.4375em; /*23 pixels*/
     }
 }
 
 @media all and (min-width: 600px) {
+    p, figcaption {
+        font-size: 1em; /*16 pixels*/
+    }
 
     h1 {
-        font-size: 1.6em;
+        font-size: 1.5em; /*24 pixels*/
     }
-}
-
-p {
-    font-family: 'Merriweather', serif;
-    line-height: 2.6;
-    font-weight: 400;
-}
-
-@media all and (min-width: 300px) {
-
-    p {
-        font-size: .825em;
-    }
-}
-
-@media all and (min-width: 400px) {
-
-    p {
-        font-size: .875em;
-    }
-}
-
-@media all and (min-width: 600px) {
-
-    p {
-        font-size: 1em;
-    }
-}
-
-figcaption {
-    font-family: 'Merriweather', serif;
-    font-size: .625em;
-    line-height: 2.56;
-    font-weight: 400;
-    text-align: center;
 }
