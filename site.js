@@ -59,6 +59,18 @@ days = {
         const until2020Hrs = until2020Min / 60;
         const until2020Day = until2020Hrs / 24;
 
+        //Position the needle on the gauge.
+        //Days to election / days between elections (1456).
+        const position = (until2020Day / betweenElectionsDay) * 100;
+
+        //Needle is positioned on section.
+        //Section has 2.5% left and 2.5% right padding.
+        //95% of section houses "gauge". Reason results are "scaled."
+        const scale = position * 0.95;
+        const padding = 2.5;
+        const needle = document.getElementById("needle");
+        needle.style.right = padding + scale + "%";
+
     } //close function
 
 }; //close variable
