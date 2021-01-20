@@ -1,0 +1,73 @@
+#container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start; /*main axis*/
+    align-items: center; /*cross axis*/
+}
+
+header {
+    width: 90%;
+    margin: 0;
+    padding: 0 5%;
+    /*background: #BF1304;*/
+    background: #048ABF;
+    flex: initial; /*flex: 0 1 auto*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start; /*main axis*/
+    align-items: center; /*cross axis*/
+}
+
+figure {
+    margin: 0 1em 0 0;
+    padding: 0;
+    flex: initial; /*flex: 0 1 auto*/
+}
+
+section {
+    width: 90%;
+    margin: 0;
+    padding: 1em 5%;
+    border-right: 2px solid #048ABF;
+    border-bottom: 2px solid #048ABF;
+    border-left: 2px solid #048ABF;
+    flex: initial; /*flex: 0 1 auto*/
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #FFF;
+}
+
+p {
+    font-family: 'Roboto', serif;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: .25em 0;
+}
+
+@media all and (min-width: 300px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+@media all and (min-width: 600px) {
+    h1 {
+        font-size: 1.6em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+}
