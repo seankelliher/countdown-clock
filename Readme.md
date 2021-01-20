@@ -3,7 +3,7 @@
 
 Countdown clock that displays the days, hours, minutes, and seconds between now and a future date. Currently, the clock is counting down to the US Presidential election on November 5, 2024. However, component can be modified to count down to another event.
 
-## Project Screen Shot(s)
+## Project Screen Shot
 
 ![screen shot of project](/screenshots/countdown-clock-screenshot1.jpg)
 
