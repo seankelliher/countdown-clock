@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
 
-        <title>Sean Kelliher - Election Timer</title>
+        <title>Sean Kelliher - Countdown Clock</title>
 
         <meta name="description" content="Add description for production model">
         <meta name="robots" content="noindex">
@@ -20,34 +20,24 @@
 
         <div id="container">
 
+            <header>
+                <figure>
+                    <img src="svg/access_time-24px.svg">
+                </figure>
+
+                <h1>Countdown Clock</h1>
+            </header>
+
             <section>
-                <h1>There are now <span id="result"></span> days until the next Presidental Election.</h1>
+                <p>
+                    <span id="days"></span> days, <span id="hours"></span> hrs, <span id="minutes"></span> mins, <span id="seconds"></span> secs
+                </p>
+                <p>until Presidental Election Day 2024</p>
             </section>
-
-            <section class="relative">
-
-                <figure id="shade1">
-                    <figcaption>&larr; 2016</figcaption>
-                    <div id="needle"></div>
-                </figure>
-
-                <figure id="shade2"></figure>
-                <figure id="shade3"></figure>
-                <figure id="shade4"></figure>
-
-                <figure id="shade5">
-                    <figcaption>2020 &rarr;</figcaption>
-                </figure>
-
-            </section>
-
-            <footer>
-                <p>&ast; Election day is Tuesday, November 3, 2020.</p>
-            </footer>
 
         </div> <!--close container-->
 
-        <script type="text/javascript" src="site.js"></script>
+        <script type="module" src="index.js"></script>
 
     </body>
 
