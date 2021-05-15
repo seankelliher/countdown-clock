@@ -39,14 +39,14 @@ section {
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 700;
     color: #FFF;
 }
 
 p {
-    font-family: 'Roboto', serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
     margin: .25em 0;
