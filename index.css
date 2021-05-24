@@ -11,10 +11,9 @@
 
 header {
     width: 90%;
-    margin: 0;
+    margin: 1.5em 0 0 0;
     padding: 0 5%;
-    /*background: #BF1304;*/
-    background: #048ABF;
+    background: #29434E; /*blue grey 600 dark*/
     flex: initial; /*flex: 0 1 auto*/
     display: flex;
     flex-flow: row wrap;
@@ -32,9 +31,10 @@ section {
     width: 90%;
     margin: 0;
     padding: 1em 5%;
-    border-right: 2px solid #048ABF;
-    border-bottom: 2px solid #048ABF;
-    border-left: 2px solid #048ABF;
+    background: #ECEFF1; /*blue grey 50*/
+    border-right: 2px solid #29434E; /*blue grey 600 dark*/
+    border-bottom: 2px solid #29434E; /*blue grey 600 dark*/
+    border-left: 2px solid #29434E; /*blue grey 600 dark*/
     flex: initial; /*flex: 0 1 auto*/
 }
 
